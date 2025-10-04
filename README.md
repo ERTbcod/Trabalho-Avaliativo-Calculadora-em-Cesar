@@ -1,5 +1,7 @@
-# 💻 Trabalho da Disciplina Sistemas Computacionais I - Calculadora em Cesar
-**Curso:** Engenharia de Controle e Automação   
+# 💻 Trabalho Avaliativo: Calculadora em Assembly para o Computador CESAR
+
+**Curso:** Engenharia de Controle e Automação 
+**Disciplina:** Sistemas Computacionais I
 
 ## Integrantes
 - Erick Rodrigues Tavares  
@@ -7,25 +9,44 @@
 - Otávio Augusto de Souza Silva
 
 ## Descrição
-Este repositório contém as soluções e relatórios desenvolvidos para a disciplina de **Sistemas Computacionais I**. Os programas são escritos em **Assembly** para o **Computador Hipotético CESAR**, utilizando o montador **Daedalus**.
+Este repositório contém o código-fonte em **Assembly** e o relatório do trabalho avaliativo focado no desenvolvimento de uma calculadora funcional para o **Computador Hipotético CESAR**. O programa foi montado utilizando o simulador **Daedalus** e implementa as quatro operações aritméticas básicas, com a capacidade de processar números com múltiplos dígitos.
 
 ## Objetivo
-O objetivo desta atividade foi compreender a arquitetura de 16 bits, o modelo de registradores, os modos de endereçamento e o processo de Input/Output (I/O) mapeado na memória.
+O objetivo principal deste projeto foi aplicar de forma prática os conceitos de programação em baixo nível, abordados na disciplina de Sistemas Computacionais I. Os desafios incluíram:
+- **Manipulação de I/O:** Implementar rotinas para ler sequências de caracteres (dígitos) do teclado e convertê-las para um valor numérico único.
+- **Lógica Aritmética:** Criar algoritmos para as operações de multiplicação e divisão, que não possuem instruções nativas na arquitetura CESAR, utilizando laços e somas/subtrações sucessivas.
+- **Estrutura de Software:** Organizar o código de forma modular, utilizando sub-rotinas para tarefas específicas como leitura, exibição e cálculos auxiliares.
+- **Conversão de Base:** Desenvolver uma lógica para exibir o resultado final no visor, convertendo um valor binário interno de volta para uma sequência de caracteres decimais.
 
 ---
+
+## ✨ Funcionalidades do Projeto
+
+- **Entrada de Múltiplos Dígitos:** A calculadora aceita números com mais de um dígito (ex: `7`, `45`).
+- **Quatro Operações Básicas:** Suporte completo para Adição (`+`), Subtração (`-`), Multiplicação (`*`) e Divisão (`/`).
+- **Exibição de Resultados:** O resultado das operações é exibido corretamente no visor de LEDs, também com suporte a múltiplos dígitos.
+- **Código Modular:** O programa é estruturado com sub-rotinas para facilitar a leitura e a manutenção.
+
+```
 
 ## 🔧 Arquitetura e Ferramentas
 
 | Componente | Detalhe |
 | :--- | :--- |
+| **Linguagem** | Assembly (para CESAR) |
 | **Arquitetura** | CESAR (Simplificação do PDP-11) |
 | **Largura** | 16 bits (Dados e Endereços) |
 | **Montador** | Daedalus |
-| **Periféricos** | Teclado e Visor Digital (I/O Mapeado) |
-| **Indexação** | Endereçamento por byte; Ponteiros incrementam por 2 (para palavras). |
+| **Periféricos** | Teclado e Visor Digital (I/O Mapeado na Memória) |
 
 ---
-## Link de acesso direto para o Relatório (Google Documentos)
-https://docs.google.com/document/d/17Tm7Weith3UF0iC3FEbKHOGl0xPjWLmKrsjN68zYwH0/edit?usp=sharing
-## PDF do Relatório
-[Tarefa Daedalus e Cesar.pdf](https://github.com/user-attachments/files/22560371/Tarefa.Daedalus.e.Cesar.pdf)
+
+## 📄 Relatório do Projeto
+
+O relatório detalha todo o processo de desenvolvimento, a lógica por trás dos algoritmos, os desafios encontrados e as capturas de tela da calculadora em execução.
+
+### **[Acesse o Relatório em PDF diretamente no GitHub](./Relatorio.pdf)**
+
+*Obs: Certifique-se de que o nome do arquivo PDF no repositório seja `Relatorio.pdf` ou ajuste o link conforme necessário.*
+
+### **[Link de acesso ao Relatório (Google Documentos)](https://docs.google.com/document/d/17Tm7Weith3UF0iC3FEbKHOGl0xPjWLmKrsjN68zYwH0/edit?usp=sharing)**
