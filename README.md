@@ -1,6 +1,7 @@
 # 💻 Trabalho Avaliativo: Calculadora em Assembly para o Computador CESAR
 
 **Curso:** Engenharia de Controle e Automação 
+
 **Disciplina:** Sistemas Computacionais I
 
 ## Integrantes
@@ -9,7 +10,7 @@
 - Otávio Augusto de Souza Silva
 
 ## Descrição
-Este repositório contém o código-fonte em **Assembly** e o relatório do trabalho avaliativo focado no desenvolvimento de uma calculadora funcional para o **Computador Hipotético CESAR**. O programa foi montado utilizando o simulador **Daedalus** e implementa as quatro operações aritméticas básicas, com a capacidade de processar números com múltiplos dígitos.
+Este repositório contém o código-fonte em **Assembly** e o relatório do trabalho avaliativo focado no desenvolvimento de uma calculadora funcional para o **Computador Hipotético CESAR**. O programa foi montado utilizando o simulador **Daedalus**, usando a biblioteca BibCesar e implementa as quatro operações aritméticas básicas, com a capacidade de processar números com múltiplos dígitos.
 
 ## Objetivo
 O objetivo principal deste projeto foi aplicar de forma prática os conceitos de programação em baixo nível, abordados na disciplina de Sistemas Computacionais I. Os desafios incluíram:
@@ -34,6 +35,7 @@ O objetivo principal deste projeto foi aplicar de forma prática os conceitos de
 | Componente | Detalhe |
 | :--- | :--- |
 | **Linguagem** | Assembly (para CESAR) |
+| **Biblioteca** | BibCesar |
 | **Arquitetura** | CESAR (Simplificação do PDP-11) |
 | **Largura** | 16 bits (Dados e Endereços) |
 | **Montador** | Daedalus |
