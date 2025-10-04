@@ -31,7 +31,6 @@ O objetivo principal deste projeto foi aplicar de forma prática os conceitos de
 
 ## 🔧 Arquitetura e Ferramentas
 
-| Componente | Detalhe |
 | :--- | :--- |
 | **Linguagem** | Assembly (para CESAR) |
 | **Arquitetura** | CESAR (Simplificação do PDP-11) |
