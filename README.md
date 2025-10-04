@@ -43,10 +43,8 @@ O objetivo principal deste projeto foi aplicar de forma prática os conceitos de
 
 ## 📄 Relatório do Projeto
 
-O relatório detalha todo o processo de desenvolvimento, a lógica por trás dos algoritmos, os desafios encontrados e as capturas de tela da calculadora em execução.
+O relatório detalhará todo o processo de desenvolvimento, a lógica por trás dos algoritmos, os desafios encontrados e as capturas de tela da calculadora em execução.
 
-### **[Acesse o Relatório em PDF diretamente no GitHub](./Relatorio.pdf)**
+### Relatório em PDF: [Relatório Calculadora Cesar.pdf](https://github.com/user-attachments/files/22704729/Relatorio.Calculadora.Cesar.pdf)
 
-*Obs: Certifique-se de que o nome do arquivo PDF no repositório seja `Relatorio.pdf` ou ajuste o link conforme necessário.*
-
-### **[Link de acesso ao Relatório (Google Documentos)](https://docs.google.com/document/d/17Tm7Weith3UF0iC3FEbKHOGl0xPjWLmKrsjN68zYwH0/edit?usp=sharing)**
+### Link de acesso ao relatório (Google Documentos): https://docs.google.com/document/d/1_u5LMoMGd-Ae_U-MVM1JDoKXRbAWKofZGnAiKjydHIc/edit?usp=sharing
