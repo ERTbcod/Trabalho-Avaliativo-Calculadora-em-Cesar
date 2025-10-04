@@ -27,7 +27,7 @@ O objetivo principal deste projeto foi aplicar de forma prática os conceitos de
 - **Exibição de Resultados:** O resultado das operações é exibido corretamente no visor de LEDs, também com suporte a múltiplos dígitos.
 - **Código Modular:** O programa é estruturado com sub-rotinas para facilitar a leitura e a manutenção.
 
-```
+---
 
 ## 🔧 Arquitetura e Ferramentas
 
