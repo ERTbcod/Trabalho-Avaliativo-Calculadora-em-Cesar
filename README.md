@@ -1,5 +1,5 @@
 # 💻 Trabalho da Disciplina Sistemas Computacionais I - Calculadora em Cesar
-**Curso:** Engenharia de Controle e Automação 
+**Curso:** Engenharia de Controle e Automação   
 
 ## Integrantes
 - Erick Rodrigues Tavares  
